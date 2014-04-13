@@ -1,0 +1,16 @@
+<?php
+session_start();
+if(!session_is_registered(myusername)){
+header("location:main_login.php");
+}
+?>
+
+<html>
+<body>
+Login Successful
+<form name="form1" method="post" action="logout.php">
+
+</form>
+</body>
+
+</html>

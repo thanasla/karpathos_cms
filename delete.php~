@@ -1,0 +1,13 @@
+<div style="background-color:#33CCFF;text-align:center;color:white;margin-left:0px;" >
+        <br><h1>EDIT/DELETE ENTRY</h1><br>
+
+    </div><div style="float:left;background-color:#C0C0C0;height:800px;width:20%;">
+	<br>
+	<a href="addentry.php"><input type="button" style="width:100%;border-width:2px;border-color:grey;height:32px;" value="ADD ENTRY"></a><br>
+	<a href=""><input type="button" style="width:100%;border-width:3px;border-color:grey;height:32px;" value="EDIT/DELETE ENTRY"></a>	
+	<a href="dropzone/index.php"><input type="button" style="width:100%;border-width:3px;border-color:grey;height:32px;" value="ADD PHOTOS"></a>
+	<a href="dropzone2/index.php"><input type="button" style="width:100%;border-width:3px;border-color:grey;height:32px;" value="ADD MENU PHOTOS"></a>
+<form name="form1" method="post" action="logout.php">
+<input type="submit" name="Submit" value="Logout" style="width:100%;border-width:3px;border-color:grey;height:32px;">
+</form>	
+	</div>

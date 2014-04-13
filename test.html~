@@ -1,0 +1,44 @@
+<html>
+<body>
+<script language='javascript'>
+function validate () {
+
+ function checkNum(x)
+{
+  if (!(/^\d+$/.test(x.value)))
+  {
+    alert("Only Numeric Values Allowed");
+    x.focus();
+    return false;
+  }
+	else
+	{ 	
+ 	 return true;
+ 	 }
+}
+
+
+	
+	if(document.getElementById('phone_number').value=="" ) {
+    alert("You need to complete category and title");
+    return false;
+  }
+  else
+  {
+  !checkNum(document.getElementById('phone_number'))
+  }
+  return true;
+  
+}
+</script>
+
+
+				<form action="#" method="post" onsubmit='return validate()'>
+					<table>
+	  				<tr><td>Phone Number:</td><td><input name="phone_number" id="phone_number" placeholder="" value="" type="text"></td></tr>    
+						<tr><td colspan="2"><input value="ADD" type="submit" style="width:350px;border-width:3px;border-color:grey;height:32px;"></td></tr>
+					</table>
+    				<br>
+				</form>	
+</body>
+</html>
